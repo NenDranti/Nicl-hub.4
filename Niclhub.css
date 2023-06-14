@@ -1,0 +1,323 @@
+
+
+
+        .search-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+
+
+        }
+
+
+        #searchInput {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 200px;
+            height: 12px;
+        }
+
+        #search-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+  #results {
+      margin-top: 2px;
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+      /* Adjust the number of columns as needed */
+      grid-gap: 20px;
+      /* Adjust the gap between grid items as needed */
+      grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+
+  }
+
+
+  /* Media query for smaller window sizes */
+  @media (max-width: 768px) {
+      #results {
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+          width: 75%;
+      }
+
+  }
+
+
+                .item {
+        
+                    display: none;
+                }
+
+        .Tube {
+            background-color: red;
+            margin-right: 10px;
+            padding: 5px;
+            border-radius: 2px;
+
+
+        }
+
+        .wish {
+            padding-right: 4px;
+        }
+
+
+        .img-descripion {
+            font-size: 7px;
+        }
+
+        img {
+            height: 120px;
+            width: 190px;
+            object-fit: fill;
+            display: flex;
+        }
+
+        .img-titel-long {
+            font-size: 12px;
+        }
+
+
+
+        .Pic {
+            height: 100%;
+        }
+
+        :root {
+            --black1: rgb(10, 10, 14);
+            --black2: rgb(20, 20, 24);
+            --black3: rgb(30, 30, 34);
+            --black4: rgb(40, 40, 44);
+            --black5: rgb(50, 50, 54);
+
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            
+        }
+
+
+
+
+        .Title {
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            margin-top: 0px;
+        }
+
+        .Veröffenlicher {
+            font-size: 13px;
+            font-weight: 150;
+            color: rgb(200, 200, 200);
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .ViewsandDate {
+            font-size: 10px;
+            font-weight: 150;
+            color: rgb(200, 200, 200);
+            margin-top: 5px;
+            margin-bottom: 3px;
+        }
+
+        .KanalBanner {
+            display: inline-block;
+            width: 50px;
+        }
+
+        .Video-Info {
+            display: inline-block;
+            width: 180px;
+        }
+
+        .Kanal-Banner-Banner {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 40px;
+            border: 4px solid var(--black4);
+            margin-bottom: 8px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .Background {
+            width: 298px;
+            height: 180px;
+            object-fit: cover;
+            border: 2px;
+            border-style: solid;
+            border-color: var(--black1);
+            
+        }
+
+
+        ul.menu li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+
+
+
+
+
+
+
+        li.search input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 3px 0 0 3px;
+            background-color: #555555;
+            color: #ffffff;
+        }
+
+        li.search button[type="submit"] {
+            padding: 10px;
+            background-color: #555555;
+            border: none;
+            border-radius: 0 3px 3px 0;
+            color: #ffffff;
+            transform: none;
+            border-radius: 12px;
+
+        }
+
+
+
+        .hub {
+            background-color: rgb(206, 141, 21);
+            border-radius: 5px;
+            border: 4px;
+            border-color: rgb(121, 79, 0);
+            padding-left: 8px;
+            padding-right: 8px;
+            border-style: solid;
+            padding-top: 2px;
+            margin-left: 5px;
+            margin: 0px;
+            padding: 0px;
+            padding: 4px;
+
+        }
+
+        input {
+            height: 21px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            height: 50px;
+
+        }
+
+
+
+
+
+
+
+
+
+        /* Media query for smaller window sizes */
+        @media (max-width: 768px) {
+            #results {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                width: 75%;
+                
+            }}
+                .item {
+                    border: 3px;
+                    border-color: rgb(13, 23, 21);
+                    border-style: solid;
+                    display: flexbox;
+                    background-color: rgb(33, 33, 33);
+                    margin: 20px;
+                    height: 290px;
+                    width: 302px;
+                    font-size: 14px;
+                    padding: 0px;}
+        
+a{
+    color: #ffffff;
+}
+        #myImage {
+            cursor: pointer;
+            width: 70px;
+            height: 100px;
+            display: flexbox;
+        }
+
+                #myImage {
+                    cursor: pointer;
+
+                    display: inline-block;
+                    /* Änderung: Von "flexbox" zu "inline-block" */
+                    vertical-align: middle;
+                    /* Hinzufügung: Zentriert das Bild vertikal */
+                }
+        
+                nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0px;
+                    background-color: #333333;
+                }
+        
+                ul.menu li {
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+        
+                li.search input[type="text"] {
+                    padding: 5px;
+                    border: none;
+                    border-radius: 3px 0 0 3px;
+                    background-color: #555555;
+                    color: #ffffff;
+                }
+        
+                li.search button[type="submit"] {
+                    padding: 10px;
+                    background-color: #555555;
+                    border: none;
+                    border-radius: 0 3px 3px 0;
+                    color: #ffffff;
+                    transform: none;
+                    border-radius: 12px;
+                }
+        
+                .search-div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+

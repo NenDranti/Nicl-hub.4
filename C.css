@@ -1,0 +1,97 @@
+        body {
+            background-color: rgb(43, 42, 51);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .vid {
+            border-radius: 10px;
+            border-color: rgb(53, 52, 61);
+            border-style: solid;
+            margin-bottom: 0px;
+        }
+
+        .Video-Title {
+            margin-top: 0px;
+            font-weight: 1000;
+            font-size: 30px;
+            margin-bottom: 3px;
+        }
+
+        .PfpC {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 75px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .PfpC-Text {
+            font-size: 25px;
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        .dark-mode-button {
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.298);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .dark-mode-button:hover {
+            background-color: #555;
+            cursor: pointer;
+        }
+
+
+
+        .So {
+            margin-top: 0px;
+        }
+
+        .Beschreibung {
+            background-color: rgb(53, 52, 61);
+            border-radius: 20px;
+            width: 610px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .Nicl-hub {
+            font-size: 25px;
+            margin-left: 30px;
+            margin-right: 20px;
+            margin-bottom: 25px;
+        }
+
+        .Hub {
+            background-color: rgb(206, 141, 21);
+            border-radius: 5px;
+            border: 4px;
+            border-color: rgb(121, 79, 0);
+            padding-left: 8px;
+            padding-right: 8px;
+            border-style: solid;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 5px;
+        }
+
+        .Nicl-hubed {
+            font-size: 50px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+        }
